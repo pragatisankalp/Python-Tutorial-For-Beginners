@@ -1,0 +1,16 @@
+#print('It\'s raining \nand i will enjoy the rain')
+'''x,y=input().split(",")
+z=input()
+print(x,y,sep="_",end="#")
+print(z) 
+x=int(input())
+y=int(input())
+z=int(input())
+print(x,y,z)'''
+#x,y,z=map(int,input().split(" "))
+#print(x,y,z,sep=" ")
+#a,b,c,x=map(int,input().split())
+#y=a*(x**2)+b*x+c
+#print(y)
+x=list(map(int,input().split()))
+print(x)

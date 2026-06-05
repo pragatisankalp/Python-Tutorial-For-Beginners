@@ -1,0 +1,6 @@
+# end and sep parameters of print()
+#join() and split()
+print("Catch the code",end="@")
+print("welcomes you")
+print("C","T","C",sep="-",end="#")
+print("India")

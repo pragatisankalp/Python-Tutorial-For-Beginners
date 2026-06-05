@@ -1,0 +1,19 @@
+                            Payment By Credit Cards
+
+Let’s suppose a  customer can have many credit cards which he can use for purchasing.
+ 
+Each Credit cards has a number and balance.
+
+Let’s create  a purchase_item() method which take the price of item and card number as arguments.
+
+When  customer use credit cards and he enters:
+
+Wrong  card number then you raise Wrong_card_error as Custom error which display the message “Card is invalid” and again you enter card no.
+
+Invalid price then you raise Invalid_price_error as Custom error which display the message “Price is wrong”.
+
+Price which is greater than balance then you raise Invalid_price_error as Custom error which display the message “Card has insufficient balance”
+
+All the exceptions should be handled.
+
+If card number is correct and balance is sufficient in credit card then print “Items are purchased successfully”
